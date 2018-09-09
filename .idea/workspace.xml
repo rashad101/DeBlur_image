@@ -1,91 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbdae1bb-dea4-4e43-a0d0-fb7e97f65994" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/test/65.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/test/66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/test/67.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/test/68.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/test/69.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/test/70.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/test/78.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/test/79.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/test/80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/12.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/44.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/45.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/49.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/51.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/58.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/59.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/60.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/62.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/63.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/71.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/72.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/73.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/73.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/75.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/76.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/77.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.py" beforeDir="false" afterPath="$PROJECT_DIR$/template.py" afterDir="false" />
-    </list>
+    <list default="true" id="cbdae1bb-dea4-4e43-a0d0-fb7e97f65994" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cnn_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="234">
+              <caret line="88" column="38" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="38" />
               <folding>
                 <element signature="e#300#312#0" expanded="true" />
               </folding>
@@ -292,12 +208,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4860515" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4860515" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32939914" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -338,8 +254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="234">
+          <caret line="88" column="38" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="38" />
           <folding>
             <element signature="e#300#312#0" expanded="true" />
           </folding>
