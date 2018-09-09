@@ -70,7 +70,7 @@ def CNN_Model():
                              validation_data = test_set,
                              validation_steps = 2000)
 
-    return classifer
+    return classifier
 
 # Part 3 - Making new predictions
 
@@ -81,7 +81,7 @@ test_image = image.img_to_array(test_image)
 test_image = np.expand_dims(test_image, axis = 0)
 classifier = CNN_Model()
 result = classifier.predict(test_image)
-training_set.class_indices
+#training_set.class_indices
 if result[0][0] == 1:
     prediction = 'dog'
 else:
