@@ -12,12 +12,25 @@
 # Part 1 - Building the CNN
 
 # Importing the Keras libraries and packages
+import keras
+import os
+import numpy as np
+import tensorflow as tf
 from keras.models import Sequential
 from keras.layers import Conv2D
 from keras.layers import MaxPooling2D
 from keras.layers import Flatten
 from keras.layers import Dense
+from keras.preprocessing import image
+from keras import backend as K
+from keras.preprocessing.image import ImageDataGenerator
 
+config = tf.ConfigProto( device_count = {'GPU': 1 , 'CPU': 56} )
+sess = tf.Session(config=config)
+keras.backend.set_session(sess)
+
+
+K.tensorflow_backend._get_available_gpus()
 
 def CNN_Model():
     # Initialising the CNN
@@ -45,7 +58,7 @@ def CNN_Model():
 
     # Part 2 - Fitting the CNN to the images
 
-    from keras.preprocessing.image import ImageDataGenerator
+
 
     train_datagen = ImageDataGenerator(rescale = 1./255,
                                        shear_range = 0.2,
@@ -65,8 +78,8 @@ def CNN_Model():
                                                 class_mode = 'binary')
 
     classifier.fit_generator(training_set,
-                             steps_per_epoch = 8000,
-                             epochs = 25,
+                             steps_per_epoch = 1000,
+                             epochs = 20,
                              validation_data = test_set,
                              validation_steps = 2000)
 
@@ -74,15 +87,28 @@ def CNN_Model():
 
 # Part 3 - Making new predictions
 
-import numpy as np
-from keras.preprocessing import image
-test_image = image.load_img('dataset/single_prediction/cat_or_dog_1.jpg', target_size = (64, 64))
+model = CNN_Model()
+
+target_dir = 'models/'
+if not os.path.exists(target_dir):
+  print("does not exist")
+  os.mkdir(target_dir)
+model.save('models/model.h5')
+model.save_weights('models/weights.h5')
+
+
+
+test_image = image.load_img('dataset/single_prediction/13.jpg', target_size = (64, 64))
 test_image = image.img_to_array(test_image)
 test_image = np.expand_dims(test_image, axis = 0)
-classifier = CNN_Model()
-result = classifier.predict(test_image)
-#training_set.class_indices
+
+result = model.predict(test_image)
+
+prediction = ""
+
 if result[0][0] == 1:
-    prediction = 'dog'
+    prediction = 'car'
 else:
-    prediction = 'cat'
+    prediction = 'not-car'
+
+print(prediction)
