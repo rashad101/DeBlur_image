@@ -1,3 +1,6 @@
 template.py
 dataset/train/
 dataset/test/
+.idea/
+.directory
+.gitignore
