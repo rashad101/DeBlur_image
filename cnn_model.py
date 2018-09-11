@@ -92,7 +92,7 @@ result = model.predict(test_image)
 
 prediction = ""
 
-if result[0][0] == 1:
+if result[0][0] == 0:
     prediction = 'car'
 else:
     prediction = 'not-car'
